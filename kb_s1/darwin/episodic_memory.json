@@ -1,0 +1,4 @@
+{
+  "Task:\nHow to open the calculator app on a desktop computer using keyboard shortcuts?\n\nSubtask: Open Spotlight Search\nSubtask Instruction: Press `Command (\u2318) + Spacebar` on your keyboard to open Spotlight Search.": "**Plan and Grounded Actions:**\n\n1. **Action:** Open Spotlight Search using the hotkey combination `Command (\u2318) + Spacebar`.\n   - **Grounded Action:** \n     ```python\n     agent.hotkey(['command', 'space'])\n     ```",
+  "Task:\nHow to open the calculator app on a desktop computer using keyboard shortcuts?\n\nSubtask: Search for Calculator\nSubtask Instruction: Type \"Calculator\" in the Spotlight Search bar.": "**Plan and Grounded Actions:**\n\n1. **Action:** Type \"Calculator\" in the Spotlight Search bar to search for the Calculator app.\n   - **Grounded Action:** \n     ```python\n     agent.type(text='Calculator')\n     ```"
+}
